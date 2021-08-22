@@ -6,12 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula de Bootstrap</title>
     <link rel="stylesheet"  type="text/css" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet"  type="text/css" href="style.css">
+    <link rel="stylesheet"  tyoe="text/css" href="css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="a">minha página</a>
+    <nav class="navbar navbar-expand-lg navbar-light margin">
+        <a class="navbar-brand" href="#">
+            <img src="imagens/global.png" width="220px" height="80px">
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link"  href="#quemsomos">Quem somos</a>  
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  href="#parceiros">Parceiros</a>  
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  href="#serviços">Serviços</a>  
+                </li>
+            </ul>
+        </div>
     </nav>
+    <section id=""quemsomos>
+        <div class="container-fluid quem-somos text-center margin spaceforup">
+            <h3 class="margin">Quem somos</h3>
+            <img src="imagens/time.jpg.jpg" class="rounded-circle" width="380px" height="350px" >
+            <h3 class="spaceforup">Somos um time comprometido com os resuldados</h3>
+    </section>
+    <section id="parceiros">
+        <div class="container- fluid text-center margin parceiros">
+            <h3 class="spaceforup margin">Parceiros</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img class="rounded-circle" src="imagens/inovation.png" width="350px">                    
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="rounded-circle" src="imagens/inovation.png"
+                        width="350px">
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="rounded-circle" src="imagens/inovation.png"
+                        width="350px">
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="serviços">
+        <div class="container-fluid text-center margin serviços">
+            <h3 class="margin spaceforup">Serviços</h3>
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla iusto molestiae voluptatibus! Sit, totam doloribus sed reprehenderit perferendis temporibus in a porro earum distinctio labore excepturi quaerat odit enim doloremque.</p>
+                    <img src="imagens/app.jpg.jpg" width="100%">
+                </div>
+                <div class="col-lg-4">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, aperiam magnam. Voluptas eveniet animi voluptatem dolor aliquam natus voluptates, cupiditate consectetur. Aperiam sed qui est quidem totam doloribus laudantium expedita.</p>
+                    <img src="imagens/Site.jpg.jpg" width="100%"  >
+                </div>
+                <div class="col-lg-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil deserunt labore odio soluta nobis, doloremque mollitia suscipit magnam itaque dolorum beatae voluptates voluptatibus voluptatem deleniti dicta consequuntur facilis quod? Nemo.</p>
+                    <img src="imagens/site2.jpg.jpg" width="300px" height="300px">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid text-center bg-footer">
+        <p>Desenvolvido por João Vitor Ribeiro de Moraes</p>
+    </footer>
 </body>
 </html>

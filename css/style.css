@@ -1,3 +1,25 @@
- body{
-  background-color: rgb(68, 150, 122);   
- }
+@charset "UTF-8";
+body{
+    font: 20px Arial, sans-serif ;
+    background-color: rgb(204, 247, 247);
+}
+.navbar{
+    background-color: rgb(127, 255, 212);
+}
+.quem-somos{
+    background-color: rgb(189, 240, 159);
+}
+.margin{
+    padding-bottom:50px ;
+}
+.spaceforup{
+    padding-top: 50px;
+}
+.parceiros{
+    background-color: rgb(114, 163, 202) ;
+}
+.bg-footer{
+    padding-top: 25px;
+    background-color: rgb(130, 202, 71);
+    padding-bottom:15px ;
+}
